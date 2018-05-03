@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">StudentSE</string>
+    <string name="jobs">Jobs</string>
+    <string name="internships">Internships</string>
+    <string name="research">Research</string>
+    <string name="events">Events</string>
+    <string name="org">Student Organizations</string>
+    <string name="acm">ACM</string>
+    <string name="cs">CS Club</string>
+    <string name="cdc">CDC</string>
+    <string name="opportunities">Opportunities</string>
 </resources>
