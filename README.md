@@ -8,3 +8,9 @@ The features of this app will include:
 - View Research opportunities
 - View info for Computer Science affiliated student organizations at SEMO
 - Links to chat channels and websites for said organizations
+
+### Specifications:
+- Developed in Android Studio 3.0.1.0
+- Minimum SDK 15
+- Targeted API 27
+- Compiled API 27
