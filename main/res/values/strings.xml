@@ -9,4 +9,9 @@
     <string name="cs">CS Club</string>
     <string name="cdc">CDC</string>
     <string name="opportunities">Opportunities</string>
+    <string name="chat">chat</string>
+    <string name="web">web</string>
+    <string name="orgName">org name</string>
+    <string name="about">about</string>
+
 </resources>
