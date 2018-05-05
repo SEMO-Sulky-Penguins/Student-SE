@@ -1,5 +1,12 @@
+CREATE TABLE android_metadata (
+	locale TEXT DEFAULT 'en_US'
+);
+
+INSERT INTO android_metadata
+VALUES ('en_US');
+
 CREATE TABLE events(
-	eventID INTEGER PRIMARY KEY AUTOINCREMENT,
+	_id INTEGER PRIMARY KEY AUTOINCREMENT,
 	title TEXT,
 	description TEXT,
 	place TEXT,
@@ -26,7 +33,7 @@ INSERT INTO events(title,description,place,eventDate,org)
 VALUES('MegaminerAI','AI Game Coding Competition','Rolla, MO','10/27/2018','ACM');
 
 CREATE TABLE opportunities(
-	opID INTEGER PRIMARY KEY AUTOINCREMENT,
+	_id INTEGER PRIMARY KEY AUTOINCREMENT,
 	position TEXT,
 	description TEXT,
 	postDate TEXT,
@@ -36,10 +43,10 @@ CREATE TABLE opportunities(
 );
 
 INSERT INTO opportunities(position,description,postDate,isJob,isInternship,isResearch)
-VALUES('Associate Software Developer','Developer position at Vizient. Bachelor degree in computer science required.','5/10/2018',TRUE,FALSE,FALSE);
+VALUES('Associate Software Developer','Developer position at Vizient. Bachelor degree in computer science or equivalent experience required.','5/10/2018',1,0,0);
 
 INSERT INTO opportunities(position,description,postDate,isJob,isInternship,isResearch)
-VALUES('REU','Research positions open at Mizzou for the summer','4/15/2018',FALSE,FALSE,TRUE);
+VALUES('REU','Research positions open at Mizzou for the summer','4/15/2018',0,0,1);
 
 INSERT INTO opportunities(position,description,postDate,isJob,isInternship,isResearch)
-VALUES('Database Migration','Need a student to migrate our 20 year old database to a new server. Must have 5 years experience in server administration.','2/1/2017',FALSE,TRUE,FALSE);
+VALUES('Database Migration','Need a student to migrate our 20 year old database to a new server. Must have 5 years experience in server administration.','2/1/2017',0,1,0);
