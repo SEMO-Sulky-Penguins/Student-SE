@@ -20,7 +20,10 @@ public class ClubViewActivity extends AppCompatActivity{
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String club = intent.getStringExtra( "club" );
+        //initializing the club fragment
         MainActivityFragment fragment = (MainActivityFragment) getFragmentManager().findFragmentById( R.id.fragmentClub );
-        fragment.SetText(club);
+        fragment.SetText(club); // calling the method in the class MainActivityFragment
+        // and passing the club name from the intent to the SetText method.
+
     }
 }

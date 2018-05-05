@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Set on click listeners for each club button
         Button ACMbutton = (Button) findViewById( R.id.btnACM );
         ACMbutton.setOnClickListener( this );
         Button CSbutton = (Button) findViewById( R.id.btnCS );
@@ -23,21 +24,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        //initialize a new intent to start club page fragment on button click
         Intent intent = new Intent( this, ClubViewActivity.class );
 
+        //switch case to add information to fragment based on the button that was clicked
         switch (v.getId())
         {
             case R.id.btnACM:
-                intent.putExtra("club", "ACM");
-                startActivity(intent);
+                intent.putExtra("club", "ACM");//sending club name through intent
+                startActivity(intent);//start the intent
                 break;
             case R.id.btnCS:
-                intent.putExtra("club", "CS Club");
-                startActivity(intent);
+                intent.putExtra("club", "CS Club");//sending club name through intent
+                startActivity(intent);//start intent
                 break;
             case R.id.btnCDC:
-                intent.putExtra("club", "CDC");
-                startActivity(intent);
+                intent.putExtra("club", "CDC");//sending club name through intent
+                startActivity(intent);//start intent
                 break;
         }
     }
