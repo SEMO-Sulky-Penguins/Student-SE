@@ -51,15 +51,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);//start intent
                 break;
             case R.id.btnInternships:
-                intent.putExtra("info","internships");
+                dbIntent.putExtra("info","internships");
                 startActivity(dbIntent);
                 break;
             case R.id.btnResearch:
-                intent.putExtra("info","research");
+                dbIntent.putExtra("info","research");
                 startActivity(dbIntent);
                 break;
             case R.id.btnEvents:
-                intent.putExtra("info","events");
+                dbIntent.putExtra("info","events");
                 startActivity(dbIntent);
                 break;
             case R.id.btnJobs:
