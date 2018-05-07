@@ -4,31 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
     android:orientation="vertical"
+    android:background="@color/colorAccent"
     tools:context="com.student.studentse.MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:layout_gravity="center_vertical|center"
+        android:layout_height="101dp"
         android:background="@color/colorPrimaryDark"
         android:ellipsize="end"
         android:gravity="center"
         android:lines="1"
         android:maxLines="1"
         android:minLines="1"
-        android:text="@string/opportunities"
         android:textColor="@color/colorLight"
         android:textSize="30sp"
         android:typeface="serif"
-        tools:text="@string/opportunities" />
+        android:text="@string/opportunities" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="67dp"
         android:orientation="horizontal">
 
         <Button
@@ -36,67 +34,53 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
-            android:text="@string/jobs"
             android:textColor="@color/colorLight"
-            tools:text="@string/jobs" />
+            android:text="@string/jobs" />
 
         <Button
             android:id="@+id/btnResearch"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
-            android:text="@string/research"
             android:textColor="@color/colorLight"
-            tools:text="@string/research" />
+            android:text="@string/research" />
 
         <Button
             android:id="@+id/btnInternships"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
-            android:text="@string/internships"
             android:textColor="@color/colorLight"
-            tools:text="@string/internships" />
+            android:text="@string/internships" />
 
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="87dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical|center"
-            android:background="@color/colorPrimaryDark"
+            android:layout_height="84dp"
             android:gravity="center"
-            android:text="@string/events"
-            android:textColor="@color/colorLight"
             android:textSize="30sp"
             android:typeface="serif"
-            tools:text="@string/events" />
+            android:textColor="@color/colorLight"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/events" />
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="67dp"
         android:orientation="horizontal">
 
         <Button
@@ -104,39 +88,33 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
-            android:text="@string/events"
             android:textColor="@color/colorLight"
-            tools:text="@string/events" />
+            android:text="@string/events" />
 
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="87dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="fill_parent"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical|center"
-            android:background="@color/colorPrimaryDark"
+            android:layout_height="84dp"
             android:gravity="center"
-            android:text="@string/org"
             android:textColor="@color/colorLight"
+            android:background="@color/colorPrimaryDark"
             android:textSize="30sp"
             android:typeface="serif"
-            tools:text="@string/org" />
+            android:text="@string/org" />
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="84dp"
         android:orientation="horizontal">
 
         <Button
@@ -144,9 +122,6 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
             android:text="@string/acm"
@@ -157,9 +132,6 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
             android:text="@string/cs"
@@ -170,9 +142,6 @@
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/button_border"
             android:text="@string/cdc"

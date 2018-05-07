@@ -1,4 +1,4 @@
-package com.student.studentse.myapplication;
+package com.student.studentse;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
