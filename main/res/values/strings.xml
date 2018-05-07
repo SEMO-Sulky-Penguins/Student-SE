@@ -13,5 +13,9 @@
     <string name="web">web</string>
     <string name="orgName">org name</string>
     <string name="about">about</string>
+    <string name="connect_error">Unable to connect</string>
 
+    <string name="read_error">Unable to read JSON data</string>
+
+    <string name="invalid_url">Invalid URL</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.student.studentse;
+package com.student.studentse.myapplication;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //initialize a new intent to start club page fragment on button click
         Intent intent = new Intent( this, ClubViewActivity.class );
         Intent dbIntent = new Intent(this, DBActivity.class);
+        Intent jbIntent = new Intent(this, JobActivity.class);
         //switch case to add information to fragment based on the button that was clicked
         switch (v.getId())
         {
@@ -63,8 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(dbIntent);
                 break;
             case R.id.btnJobs:
-                //do something
-                //startActivity(jobIntent);
+                startActivity(jbIntent);
                 break;
             default:
                 break;
