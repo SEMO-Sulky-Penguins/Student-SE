@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.text.Html;
 import android.widget.TextView;
 
+/* This file basically just displays the data sent from JobsActivity.
+* It collects the info from the intent, strips off the html tags, then stores the data into textviews
+*/
+
 public class JobsDisplayActivity extends AppCompatActivity {
 
     TextView titleTextView, createTextView, typeTextView,
