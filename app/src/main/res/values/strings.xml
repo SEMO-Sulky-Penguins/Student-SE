@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StudentSE</string>
+    <string name="jobs">Jobs</string>
+    <string name="internships">Internships</string>
+    <string name="research">Research</string>
+    <string name="events">Events</string>
+    <string name="org">Student Organizations</string>
+    <string name="acm">ACM</string>
+    <string name="cs">CS Club</string>
+    <string name="cdc">CDC</string>
+    <string name="opportunities">Opportunities</string>
+    <string name="orgName">Org Name</string>
+    <string name="about">About Us</string>
+    <string name="web">Website</string>
+    <string name="chat">Chat</string>
+    <string name="connect_error">Unable to connect</string>
+    <string name="read_error">Unable to read JSON data</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="jobClosest">Closest Job</string>
+    <string name="jobTitle">Title: </string>
+    <string name="jobType">Type: </string>
+    <string name="jobDescription">Description: </string>
+    <string name="jobLocation">Location: </string>
+    <string name="jobCreated">Created By: </string>
+    <string name="jobUrl">URL: </string>
+</resources>
