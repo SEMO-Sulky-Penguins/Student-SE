@@ -18,4 +18,9 @@ The features of this app will include:
 - Tested with Nexus 5X / Nexus 6 emulators running API 27
 
 ### Home Screen
-<img src="https://github.com/SEMO-Sulky-Penguins/Student-SE/blob/master/homeScreen.png" width="50%"/>
+<img src="https://github.com/SEMO-Sulky-Penguins/Student-SE/blob/master/homeScreen.png" width="33%"/>
+
+
+### Video
+This is a 20 min video where we talk about the project in detail: 
+[Student-SE Video](https://www.youtube.com/watch?v=k2k70XW-gBI)
